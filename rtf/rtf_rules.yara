@@ -36,14 +36,14 @@ condition:
 	($magic1 or $magic2 or $magic3 at 0) and $author1
 } 
 
-rule rtf_APT_WMIGhost
+rule Backdoor_APT_Mongall
 {
 meta:
 	author = "@patrickrolsen"
-	maltype = "APT.WMIGhost"
+	maltype = "Backdoor.APT.Mongall"
 	version = "0.1"
-	reference = "e61b42e1f636180dd804ddf3ba3fd4e3" 
-	date = "2013-12-12"
+	reference = "fd69a799e21ccb308531ce6056944842" 
+	date = "01/04/2014"
 strings:
 	$author  = "author user"
 	$title   = "title Vjkygdjdtyuj" nocase
